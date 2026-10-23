@@ -17,3 +17,6 @@ A static, no-ad, browser-based library of editable ED documentation templates. I
 - Custom templates and favorites are stored in the current browser's local storage. They do not automatically sync between devices.
 - Do not enter patient-identifying information or store patient records.
 - Check all templates against actual findings, local protocols, and approved hospital documentation requirements.
+
+
+Updated version: includes age/sex, known-case history, allergies, pain score, a standalone general physical examination template, common ED presentations, and ISBAR handover. Default normal examination text is editable and must be verified against the actual examination before entering the hospital record. Do not store patient-identifiable data in this static site.
