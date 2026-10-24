@@ -19,4 +19,4 @@ A static, no-ad, browser-based library of editable ED documentation templates. I
 - Check all templates against actual findings, local protocols, and approved hospital documentation requirements.
 
 
-Updated version: includes age/sex, known-case history, allergies, pain score, a standalone general physical examination template, common ED presentations, and ISBAR handover. Default normal examination text is editable and must be verified against the actual examination before entering the hospital record. Do not store patient-identifiable data in this static site.
+Expanded library: 60+ editable templates covering common and high-risk cardiovascular, respiratory, abdominal/GI, neurological, trauma/MSK, infectious, renal/urological, endocrine/metabolic, pediatric, obstetric/gynecological, toxicology/environmental, critical-care, ENT/eye, skin/allergy, imaging/referral, handover, reassessment, and procedure documentation. Default normal examination text is editable and must be verified against the actual examination before entering the hospital record. Do not store patient-identifiable data in this static site.
