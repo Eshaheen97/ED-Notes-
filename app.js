@@ -2,7 +2,7 @@ const categories = ["All templates","Favorites","Cardiovascular","Respiratory","
 const templates = [
 {id:'general-exam',title:'General Physical Examination — Normal Template',category:'Progress & Handover',desc:'Editable general normal examination template.',body:`Vital signs: Stable, afebrile.
 General appearance: Looking well / ill-looking.
-Conscious, alert and oriented to time, place and person. Not in acute pain or respiratory distress.
+Conscious, alert and oriented to time, place and person. GCS: 15/15. Not in acute pain or respiratory distress.
 
 Respiratory: Equal bilateral air entry. No added sounds.
 Cardiovascular: S1 and S2 heard, no added sounds or murmurs.
@@ -27,11 +27,8 @@ Relevant negatives: __________________
 Objective:
 Vital signs: Stable, afebrile.
 General appearance: Looking well / ill-looking.
-Conscious, alert and oriented to time, place and person. Not in acute pain or respiratory distress.
-Respiratory: Equal bilateral air entry. No added sounds.
-Cardiovascular: S1 and S2 heard, no added sounds or murmurs.
-Abdomen: Soft and lax, non-distended, non-tender. No guarding or rebound tenderness. No right iliac fossa tenderness. McBurney's point and Murphy's sign negative.
-Other focused examination: __________________
+Conscious, alert and oriented to time, place and person. GCS: 15/15. Not in acute pain or respiratory distress.
+Focused examination / abnormal or presentation-specific findings: __________________
 Investigations: __________________
 
 Assessment: __________________
@@ -95,6 +92,27 @@ Plan: __________________`},
 {id:'pediatric-respiratory',title:'Pediatric Cough / Respiratory Distress',category:'Pediatrics',desc:'Age, work of breathing, feeding, apnea/cyanosis and hydration.',body:`____-year-old child, known case of __________________ / medically free, with known allergy to __________________ / NKDA, presenting with cough / breathing difficulty for __________________. Fever, noisy breathing, wheeze, stridor, apnea/cyanosis, feeding, urine output, sick contacts and symptom progression: __________________. Prematurity, respiratory history, immunizations and relevant exposures: __________________.\n\nObjective: Age-appropriate vital signs and SpO₂: __________________. General appearance: Looking well / ill-looking. Work of breathing, retractions, nasal flaring, air entry and added sounds: __________________. Hydration and mental status: __________________.\nAssessment: __________________. Plan and reassessment: __________________.`},
 {id:'eye-redness',title:'Red Eye / Eye Pain',category:'ENT & Eyes',desc:'Vision change, photophobia, contact lenses, trauma and red flags.',body:`____-year-old male/female, known case of __________________ / medically free, with known allergy to __________________ / NKDA, presenting with red eye / eye pain in the right / left eye for __________________. Pain, photophobia, discharge, visual change, trauma/foreign body, contact lens use, headache/nausea and chemical exposure: __________________.\n\nObjective: Visual acuity each eye if assessed: __________________. Pupils, extraocular movements, conjunctiva/cornea and fluorescein findings if performed: __________________. Foreign body assessment / intraocular pressure only if indicated and performed: __________________.\nAssessment: __________________. Plan: __________________.`},
 {id:'sore-throat',title:'Sore Throat / Tonsillitis',category:'ENT & Eyes',desc:'Airway red flags, swallowing, voice, hydration and infection symptoms.',body:`____-year-old male/female, known case of __________________ / medically free, with known allergy to __________________ / NKDA, presenting with sore throat for __________________. Fever, cough, rhinorrhea, odynophagia, dysphagia, voice change, drooling, trismus, unilateral pain and oral intake: __________________. Exposure, recurrent episodes and relevant history: __________________.\n\nObjective: Vital signs: __________________. General appearance and hydration: __________________. Oral cavity/tonsils, uvula, exudate, asymmetry, neck swelling and lymph nodes: __________________. Airway/respiratory status: __________________. Investigations if indicated: __________________.\nAssessment: __________________. Plan: __________________.`}
+,
+{id:'unilateral-facial-numbness',title:'Unilateral Facial Numbness',category:'Neurology',desc:'Acute focal sensory symptom; document onset/last-known-well and associated stroke features.',body:`____-year-old male/female, known case of __________________ / medically free, with known allergy to __________________ / NKDA, presenting with unilateral facial numbness affecting the __________________ side for __________________.
+Onset and exact time last known well: __________________. Sudden or gradual onset, duration/progression, previous episodes: __________________. Associated facial droop, limb weakness/numbness, speech or vision change, imbalance, severe headache, dizziness, swallowing difficulty or altered consciousness: __________________. Vascular risk factors, previous stroke/TIA, anticoagulants and relevant history: __________________.
+
+Specific examination: Side/distribution of sensory change: __________________. Facial symmetry and cranial nerve findings: __________________. Limb power/sensation, speech, coordination and gait if assessed: __________________. GCS: 15/15 if appropriate and confirmed. Bedside glucose: __________________. Document stroke-screen/NIHSS findings if performed: __________________.
+Assessment: __________________. Plan: Urgent stroke assessment / investigations / escalation as clinically indicated: __________________.`},
+{id:'acute-urtI-viral-bacterial',title:'Acute Upper Respiratory Tract Infection — Viral vs Bacterial',category:'Respiratory',desc:'Upper respiratory symptoms, duration, red flags and features supporting likely etiology.',body:`____-year-old male/female, known case of __________________ / medically free, with known allergy to __________________ / NKDA, presenting with upper respiratory symptoms for __________________.
+Symptoms: Rhinorrhea/nasal congestion, sore throat, cough, fever, hoarseness, myalgia and fatigue: __________________. Onset/course and sick contacts: __________________. Relevant negatives/red flags: dyspnea, chest pain, inability to swallow fluids, drooling, trismus, unilateral throat/neck swelling, dehydration or worsening after initial improvement: __________________. Relevant comorbidities, immunosuppression and recent antibiotics: __________________.
+
+Specific examination: Nasal discharge/congestion: __________________. Pharyngeal erythema/exudate: __________________. Tonsillar enlargement/exudate and cervical lymph nodes: __________________. Any focal chest findings or respiratory distress: __________________.
+Assessment: Acute URTI; likely viral vs bacterial based on history/examination. Consider testing when indicated by clinical criteria/local protocol. Plan: __________________.`},
+{id:'acute-follicular-tonsillitis',title:'Acute Follicular Tonsillitis',category:'ENT & Eyes',desc:'Tonsillar inflammation/exudate, Centor/McIsaac features and airway red flags.',body:`____-year-old male/female, known case of __________________ / medically free, with known allergy to __________________ / NKDA, presenting with sore throat / painful swallowing for __________________.
+Fever, cough, rhinorrhea, headache, myalgia, oral intake and urine output: __________________. Exposure, previous episodes and recent antibiotics: __________________. Red flags: drooling, muffled voice, trismus, unilateral swelling, neck stiffness, respiratory difficulty or inability to swallow fluids: __________________.
+
+Specific ENT examination: Tonsils: enlarged / erythematous / follicular exudates __________________. Uvula position and peritonsillar symmetry: __________________. Tender anterior cervical lymph nodes: __________________. Hydration and airway findings: __________________. Document Centor/McIsaac features as assessed: fever, absence of cough, tonsillar exudate/swelling, tender anterior cervical nodes, age: __________________.
+Assessment: Acute follicular tonsillitis. Viral vs streptococcal etiology as supported by clinical assessment/testing. Plan: __________________.`},
+{id:'hypoglycemia',title:'Hypoglycemia',category:'Endocrine & Metabolic',desc:'Document glucose, symptoms, treatment response, cause and safe disposition.',body:`____-year-old male/female, known case of __________________ / medically free, with known allergy to __________________ / NKDA, presenting with suspected / confirmed hypoglycemia for __________________.
+Symptoms and onset: sweating, tremor, palpitations, hunger, confusion, behavior change, seizure or loss of consciousness: __________________. Diabetes medications/insulin and last dose, last meal, reduced intake, vomiting, exercise, alcohol, renal/hepatic disease and previous episodes: __________________.
+
+Specific examination: Mental status and GCS: __________________. Initial bedside glucose and time: __________________. Repeat glucose after treatment and time: __________________. Relevant neurological findings / injury: __________________. Ability to eat and drink safely: __________________.
+Assessment: Hypoglycemia, likely cause __________________. Treatment given and response: __________________. Plan: Repeat glucose/monitoring, assess recurrence risk and cause, ensure sustained euglycemia and appropriate disposition/follow-up: __________________.`}
 
 ];
 let selectedCategory='All templates', selectedId=null, selectedIsCustom=false;

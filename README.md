@@ -1,4 +1,4 @@
-# ED Note Vault
+# ED Residency Assistant
 
 A static, no-ad, browser-based library of editable ED documentation templates. It is designed for GitHub Pages and requires no paid APIs or backend.
 
@@ -20,3 +20,9 @@ A static, no-ad, browser-based library of editable ED documentation templates. I
 
 
 Expanded library: 60+ editable templates covering common and high-risk cardiovascular, respiratory, abdominal/GI, neurological, trauma/MSK, infectious, renal/urological, endocrine/metabolic, pediatric, obstetric/gynecological, toxicology/environmental, critical-care, ENT/eye, skin/allergy, imaging/referral, handover, reassessment, and procedure documentation. Default normal examination text is editable and must be verified against the actual examination before entering the hospital record. Do not store patient-identifiable data in this static site.
+
+
+## Recent updates
+- Added unilateral facial numbness, acute URTI (viral vs bacterial), acute follicular tonsillitis, and hypoglycemia templates.
+- Added default GCS 15/15 to the general physical examination template.
+- Reduced duplicated general examination text in the general initial note; presentation templates emphasize focused history and specific examination findings.
